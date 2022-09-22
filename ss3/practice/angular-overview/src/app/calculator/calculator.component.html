@@ -1,0 +1,12 @@
+<p>calculator works!</p>
+
+<input type="text" [(ngModel)]="number1">
+<select [(ngModel)]="sigh">
+  <option value=" " selected>choose calculation</option>
+  <option value="+">plus</option>
+  <option value="-">minus</option>
+  <option value="/">divistion</option>
+  <option value="*">multiply</option>
+</select>
+<input type="text" [(ngModel)]="number2">
+<p>result: {{calculator()}}</p>

@@ -1,0 +1,601 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d1f8c8fc-e2fd-4421-a490-c0b2a816e4ff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../case_study/view/common/footer.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/common/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/css/mdb.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/css/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/css/style.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/about.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/ads-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/blog-home-banner.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/c1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/c2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/c3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/c4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/c5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/c6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/cat-widget1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/cat-widget2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/cat-widget3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/feature-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/feature-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/feature-img3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/feature-img4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/feature-img5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/next.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/post-img1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/post-img2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/pp1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/pp2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/pp3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/pp4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/prev.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/s-img.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog/user-info.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/blog5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/a.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/a2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/d.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/disabled-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/disabled-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/f8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g1.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g2.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g3.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g4.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/g8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/primary-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/primary-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/success-check.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/success-radio.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/user1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/elements/user2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/footer-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/hero-1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/hero-2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/hero-3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/portfolio1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/portfolio2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/portfolio3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/portfolio4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/project-bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/img/testimonial.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/js/mdb.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/bootstrap/bootstrap.bundle.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/bootstrap/bootstrap.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/Flaticon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/Flaticon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/Flaticon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/Flaticon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/_flaticon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/backup.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/flaticon.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/flaticon.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/flat-icon/license/license.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-Black.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-BlackItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-Bold.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-BoldItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-Book.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-BookItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-Medium.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/fonts/CircularStd-MediumItalic.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/MaterialIcons-Regular.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/MaterialIcons-Regular.ijmap" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/MaterialIcons-Regular.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/MaterialIcons-Regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/MaterialIcons-Regular.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/MaterialIcons-Regular.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/codepoints" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/debug.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/iconfont/material-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/jquery/jquery-3.2.1.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/owl-carousel/owl.carousel.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/owl-carousel/owl.carousel.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/owl-carousel/owl.theme.default.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/scripts/App.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/scripts/Vendor.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/scripts/modules/Slider.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/bower.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/demo-only/prism.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/less/demo.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/less/simplyCountdown.theme.default.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/less/simplyCountdown.theme.losange.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/simplyCountdown.theme.custom.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/simplyCountdown.theme.default.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/css/simplyCountdown.theme.losange.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/dev/simplyCountdown.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/dist/simplyCountdown.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/gulpfile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/simplyCountdown/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/Italic.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/agenda.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/alarm-clock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/alert.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/align-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/align-justify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/align-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/align-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/anchor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/android.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-double-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-double-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-double-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-double-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/angle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/announcement.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/apple.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/archive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-circle-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-circle-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-circle-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-circle-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-top-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-top-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrows-corner.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrows-horizontal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/arrows-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/back-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/back-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bar-chart-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bar-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/basketball.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bell.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/blackboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bolt-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bolt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/book.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bookmark-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/bookmark.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/briefcase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/brush-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/brush.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/calendar.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/car.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/check-box.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/check.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/clip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/clipboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/close.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/cloud-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/cloud-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/cloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/comment-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/comment.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/comments-smiley.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/comments.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-eject.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-pause.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-play.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-record.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-shuffle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-skip-backward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-skip-forward.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/control-stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/credit-card.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/crown.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/css3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/cup.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/cut.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/dashboard.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/desktop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/direction-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/direction.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/download.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/dribbble.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/dropbox-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/dropbox.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/drupal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/email.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/envelope.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/eraser.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/exchange-vertical.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/export.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/face-sad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/face-smile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/facebook.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/file.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/files.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/filter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/flag-alt-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/flag-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/flag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/flickr-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/flickr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/folder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/fullscreen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/gallery.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/game.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/gift.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/github.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/google.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-drag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-open.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-point-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-point-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-point-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-point-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hand-stop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/harddrive.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/harddrives.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/headphone-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/headphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/heart-broken.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/heart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/help-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/help.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/home.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/html5.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/hummer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/id-badge.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/import.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/infinite.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/info-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/info.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/ink-pen.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/instagram.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/joomla.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/jsfiddle.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/key.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layers-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layers.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-accordion-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-accordion-merged.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-accordion-separated.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-column2-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-column2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-column3-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-column3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-column4-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-column4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-cta-btn-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-cta-btn-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-cta-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-cta-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-cta-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid2-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid2-thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid3-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid3.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid4-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-grid4.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-line-solid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-list-large-image.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-list-post.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-list-thumb-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-list-thumb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-center-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-center.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-left-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-overlay-alt-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-overlay-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-overlay.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-right-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-media-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-menu-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-menu-separated.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-menu-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-placeholder.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-sidebar-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-sidebar-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-sidebar-none.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-sidebar-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-slider-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-slider.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-tab-min.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-tab-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-tab-window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-tab.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-width-default-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-width-default.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout-width-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/layout.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/light-bulb.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/line-dashed.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/line-dotted.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/line-double.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/linkedin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/linux.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/list-ol.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/location-arrow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/location-pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/lock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/loop.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/magnet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/map-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/map.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/marker-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/marker.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/medall-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/medall.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/menu-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/menu.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/microphone-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/microphone.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/microsoft-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/microsoft.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/minus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/mobile.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/money.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/more-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/more.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/mouse-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/mouse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/music-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/music.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/na.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/new-window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/notepad.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/package.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/paint-bucket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/paint-roller.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/palette.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/panel.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/paragraph.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pencil-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pencil-alt2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pie-chart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pin-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pin.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pin2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pinterest-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pinterest.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/plug.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/plus.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/power-off.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/printer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/pulse.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/quote-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/quote-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/receipt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/reddit.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/reload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/rocket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/rss-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/rss.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/ruler-alt-2.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/ruler-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/ruler-pencil.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/ruler.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/save-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/save.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/search.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/server.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/settings.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/share-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/share.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/sharethis-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/sharethis.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shield.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shift-left-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shift-left.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shift-right-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shift-right.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shine.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shopping-cart-full.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shopping-cart.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/shortcode.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/signal.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/skype.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/slice.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/smallcap.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/soundcloud.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/split-h.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/split-v-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/split-v.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/spray.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/stack-overflow.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/stamp.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/star.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/stats-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/stats-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/support.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/tablet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/tag.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/target.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/text.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/themify-favicon-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/themify-favicon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/themify-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/thought.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/thumb-down.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/thumb-up.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/ticket.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/time.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/timer.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/trash.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/trello.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/truck.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/tumblr-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/tumblr.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/twitter-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/twitter.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/underline.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/unlink.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/unlock.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/upload.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/uppercase.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/vector.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/video-camera.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/video-clapper.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/view-grid.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/view-list-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/view-list.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/vimeo-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/vimeo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/volume.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/wallet.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/wand.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/wheelchair.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/widget-alt.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/widget.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/widgetized.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/window.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/wordpress.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/world.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/write.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/yahoo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/youtube.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/zip.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/zoom-in.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/SVG/zoom-out.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/Themify IconFonts 5-23-2014.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/fonts/themify.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/fonts/themify.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/fonts/themify.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/fonts/themify.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/ie7/ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/ie7/ie7.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/readme.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/vendor/themify-icons/themify-icons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/view/facility/list.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/view/header.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/view/home.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/view/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../case_study/view/view/service.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/node_module/ tsconfig.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/node_module/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/exercise/src/main.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../tri.txt" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="TypeScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="2Ey7fUTcVXds5cWB3HBJ2nvVGMH" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d1f8c8fc-e2fd-4421-a490-c0b2a816e4ff" name="Default Changelist" comment="" />
+      <created>1663556073639</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1663556073639</updated>
+      <workItem from="1663556074985" duration="1745000" />
+      <workItem from="1663637882530" duration="910000" />
+      <workItem from="1663657305593" duration="5339000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+    <option name="exactExcludedFiles">
+      <list>
+        <option value="$PROJECT_DIR$/src/shape.js" />
+        <option value="$PROJECT_DIR$/src/rectangle.js" />
+        <option value="$PROJECT_DIR$/exercise/src/main.js" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="102" key="FileChooserDialogImpl" timestamp="1663663530963">
+      <screen x="0" y="0" width="1366" height="720" />
+    </state>
+    <state x="462" y="102" key="FileChooserDialogImpl/0.0.1366.720@0.0.1366.720" timestamp="1663663530963" />
+  </component>
+</project>
