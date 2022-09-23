@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Service</title>
+    <link href="https://fonts.googleapis.com/css?family=Oswald:300,400,500" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300i,400,500" rel="stylesheet">
+
+    <link rel="stylesheet" href="../../vendor/themify-icons/themify-icons.css">
+    <link rel="stylesheet" href="../https://cdn.linearicons.com/free/1.0.0/icon-font.min.css">
+    <link rel="stylesheet" href="../https://use.fontawesome.com/releases/v5.6.3/css/all.css">
+    <link rel="stylesheet" href="../../vendor/owl-carousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="../../vendor/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../vendor/bootstrap/bootstrap.min.css">
+</head>
+<body>
+<!-- ================Offcanvus Menu Area =================-->
+<div class="side_menu">
+    <ul class="list menu_right">
+        <li>
+            <a href="../index.html">Home</a>
+        </li>
+        <li>
+            <a href="about.html">About</a>
+        </li>
+        <li>
+            <a href="projects.html">Projects</a>
+        </li>
+        <li>
+            <a href="list.html">Service</a>
+        </li>
+        <li>
+            <a href="#">Pages</a>
+            <ul class="list">
+                <li>
+                    <a href="elements.html">Elements</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="#">Blog</a>
+            <ul class="list">
+                <li>
+                    <a href="blog.html">Blog</a>
+                </li>
+                <li>
+                    <a href="single-blog.html">Blog Details</a>
+                </li>
+            </ul>
+        </li>
+        <li>
+            <a href="contact.html">Contact</a>
+        </li>
+    </ul>
+</div>
+<!--================End Offcanvus Menu Area =================-->
+
+<!--================Canvus Menu Area =================-->
+<div class="canvus_menu">
+    <div class="container">
+        <div class="float-right">
+            <div class="toggle_icon" title="Menu Bar">
+                <span></span>
+            </div>
+        </div>
+    </div>
+</div>
+<!--================End Canvus Menu Area =================-->
+
+<header class="hero-banner project-bg">
+    <a class="navbar-brand" href="../index.html">
+        <img src="../../img/logo.png" alt="">
+    </a>
+    <div class="container">
+        <h2 class="section-intro__subtitle">Our Services</h2>
+        <div class="btn-group breadcrumb">
+            <a href="#/" class="btn">Home</a>
+            <span class="btn btn--rightBorder">Services</span>
+        </div>
+    </div>
+</header>
+
+<div class="container w-50 mt-2 p-2" style="border: 1px solid grey; border-radius: 15px">
+    <h3 align="center">THÊM MỚI DỊCH VỤ</h3>
+    <form class="row g-3" action="/facility/add" method="post" th:object="${facilityDto}">
+        <div class="col-md-12">
+            <label class="form-label">Loại dịch vụ</label>
+            <select name="serviceType"  th:field="*{facilityTypeId}" class="form-select" onchange="showServiceInput(this)" id="serviceSelect">
+                <!--                <option value="None" disabled selected>Chọn loại dịch vụ</option>-->
+                <option th:each="facilityTp: ${facilityType}"
+                        th:value="${facilityTp.id}"
+                        th:text="${facilityTp.name}">
+                </option>
+            </select>
+        </div>
+
+        <div class="col-md-12">
+            <label for="name" class="form-label">Tên dịch vụ</label>
+            <input type="text" class="form-control" th:field="*{nameFacility}" id="name" >
+            <p class="text-danger" th:errors="*{nameFacility}"></p>
+        </div>
+
+        <div class="col-md-12">
+            <label for="area" class="form-label">Diện tích sử dụng</label>
+            <input type="text" class="form-control" id="area" th:field="*{area}">
+            <p class="text-danger" th:errors="*{area}"></p>
+
+        </div>
+
+        <div class="col-md-12">
+            <label for="cost" class="form-label">Chi phí thuê</label>
+            <input type="text" class="form-control" id="cost" th:field="*{cost}" >
+            <p class="text-danger" th:errors="*{cost}"></p>
+
+        </div>
+
+        <div class="col-md-12">
+            <label for="max_people" class="form-label">Số lượng người tối đa </label>
+            <input type="text" class="form-control" id="max_people" th:field="*{maxPeople}" >
+            <p class="text-danger" th:errors="*{maxPeople}"></p>
+
+        </div>
+
+        <div class="col-md-12">
+            <label  class="form-label">Kiểu thuê</label>
+            <select name="rentalType"  class="form-select" th:field="*{rentTypeId}">
+                <option value="0" disabled seleccted>Chọn kiểu thuê</option>
+                <option th:each="rent : ${rentType}"
+                        th:value="${rent.id}"
+                        th:text="${rent.name}">
+                </option>
+            </select>
+        </div>
+
+        <div class="col-md-12 " id="s1" style="display: none">
+            <label for="standard_room" class="form-label">Tiêu chuẩn phòng </label>
+            <input type="text" class="form-control" id="standard_room" th:field="*{standardRoom}">
+            <p class="text-danger" th:errors="*{standardRoom}"></p>
+
+        </div>
+
+        <div class="col-md-12 " id="s2" style="display: none">
+            <label for="description" class="form-label">Mô tả tiện nghi khác</label>
+            <input type="text" class="form-control" id="description" th:field="*{descriptionOtherConvenience}">
+        </div>
+
+        <div class="col-md-12 " id="s3" style="display: none">
+            <label for="pool_area" class="form-label">Diện tích hồ bơi  </label>
+            <input type="text" class="form-control" id="pool_area" th:field="*{poolArea}">
+            <p class="text-danger" th:errors="*{poolArea}"></p>
+
+        </div>
+
+        <div class="col-md-12" id="s4" style="display: none">
+            <label for="number_floors" class="form-label">Số tầng </label>
+            <input type="text" class="form-control" id="number_floors" th:field="*{numberOfFloors}">
+            <p class="text-danger" th:errors="*{numberOfFloors}"></p>
+
+        </div>
+
+        <div class="col-md-12 " id="s5" style="display: none">
+            <label for="facility_free" class="form-label">Dịch vụ miễn phí đi kèm </label>
+            <input type="text" class="form-control" id="facility_free" th:field="*{facilityFree}">
+        </div>
+
+        <div class="col-12 ">
+            <button type="submit" class="btn btn-primary">Gửi</button>
+        </div>
+    </form>
+</div>
+
+<script>
+    function showServiceInput(value) {
+        var v = value.value;
+        switch (v) {
+            case 'None':
+                document.getElementById("s1").style.display="none";
+                document.getElementById("s2").style.display="none";
+                document.getElementById("s3").style.display="none";
+                document.getElementById("s4").style.display="none";
+                document.getElementById("s5").style.display="none";
+                break;
+            case "1":
+                document.getElementById("s1").style.display="block";
+                document.getElementById("s2").style.display="block";
+                document.getElementById("s3").style.display="block";
+                document.getElementById("s4").style.display="block";
+                document.getElementById("s5").style.display="none";
+                break;
+            case "2":
+                document.getElementById("s1").style.display="block";
+                document.getElementById("s2").style.display="block";
+                document.getElementById("s4").style.display="block";
+                document.getElementById("s5").style.display="none";
+                document.getElementById("s3").style.display="none";
+                break;
+            case "3":
+                document.getElementById("s1").style.display="none";
+                document.getElementById("s2").style.display="none";
+                document.getElementById("s3").style.display="none";
+                document.getElementById("s4").style.display="none";
+                document.getElementById("s5").style.display="block";
+                break;
+        }
+    }
+</script>
+
+
+<footer class="footer footer-bg">
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
+                <h3 class="footer__title">Top Products</h3>
+                <ul class="footer__link">
+                    <li><a href="#/">managed Website</a></li>
+                    <li><a href="#/">Manage Reputation</a></li>
+                    <li><a href="#/">power Tools</a></li>
+                    <li><a href="#/">Marketing Service</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
+                <h3 class="footer__title">Quick Links</h3>
+                <ul class="footer__link">
+                    <li><a href="#/">Jobs</a></li>
+                    <li><a href="#/">Brand Assets</a></li>
+                    <li><a href="#/">Investor Relations</a></li>
+                    <li><a href="#/">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
+                <h3 class="footer__title">Features</h3>
+                <ul class="footer__link">
+                    <li><a href="#/">Jobs</a></li>
+                    <li><a href="#/">Brand Assets</a></li>
+                    <li><a href="#/">Investor Relations</a></li>
+                    <li><a href="#/">Terms of Service</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-4 col-lg-2 mb-4 mb-lg-0 text-center text-sm-left">
+                <h3 class="footer__title">Resources</h3>
+                <ul class="footer__link">
+                    <li><a href="#/">Guides</a></li>
+                    <li><a href="#/">Research</a></li>
+                    <li><a href="#/">Experts</a></li>
+                    <li><a href="#/">Agencies</a></li>
+                </ul>
+            </div>
+            <div class="col-sm-8 col-lg-4 mb-4 mb-lg-0 text-center text-sm-left">
+                <h3 class="footer__title">Newsletter</h3>
+                <p>You can trust us. we only send promo offers,</p>
+                <form action="" class="form-subscribe">
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Your email address" required>
+                        <div class="input-group-append">
+                            <button class="btn-append" type="submit"><i class="lnr lnr-arrow-right"></i></button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="d-sm-flex justify-content-between footer__bottom top-border">
+            <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
+                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+            <ul class="social-icons mt-2 mt-sm-0">
+                <li><a href="#/"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#/"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#/"><i class="fab fa-dribbble"></i></a></li>
+                <li><a href="#/"><i class="fab fa-behance"></i></a></li>
+            </ul>
+        </div>
+    </div>
+</footer>
+
+
+<script src="../../vendor/jquery/jquery-3.2.1.min.js"></script>
+<script src="../../vendor/bootstrap/bootstrap.bundle.min.js"></script>
+<script src="../../vendor/owl-carousel/owl.carousel.min.js"></script>
+
+<script>
+    var dropToggle = $('.menu_right > li').has('ul').children('a');
+    dropToggle.on('click', function() {
+        dropToggle.not(this).closest('li').find('ul').slideUp(1000);
+        $(this).closest('li').children('ul').slideToggle(1000);
+        return false;
+    });
+
+    $( ".toggle_icon" ).on('click', function() {
+        $( 'body' ).toggleClass( "open" );
+    });
+    // let dropToggle1=document.getElementsByClassName("menu_right").classList.contains('ul').children('a');
+    // dropToggle1.addEventListener('click',function () {
+    // 	dropToggle1.classList.toggle();
+    // })
+</script>
+</body>
+</html>

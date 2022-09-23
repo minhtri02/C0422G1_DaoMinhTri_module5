@@ -25,10 +25,12 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
+              "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css",
+              "angular-overview\\node_modules\\mdp_boostrap\\css\\mdb.min.css"
             ],
             "scripts": [
-              "node_modules\\bootstrap\\dist\\js\\bootstrap.min.js"
+              "node_modules\\bootstrap\\dist\\js\\bootstrap.min.js",
+              "angular-overview\\node_modules\\mdp_boostrap\\js\\mdb.min.js"
             ]
           },
           "configurations": {
