@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "angular-overview": {
+    "furama-angular": {
       "projectType": "application",
       "schematics": {},
       "root": "",
@@ -13,7 +13,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/angular-overview",
+            "outputPath": "dist/furama-angular",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": "src/polyfills.ts",
@@ -25,10 +25,10 @@
             ],
             "styles": [
               "src/styles.css",
-              "node_modules\\bootstrap\\dist\\css\\bootstrap.min.css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css"
             ],
             "scripts": [
-              "node_modules\\bootstrap\\dist\\js\\bootstrap.min.js"
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -65,18 +65,18 @@
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
           "options": {
-            "browserTarget": "angular-overview:build"
+            "browserTarget": "furama-angular:build"
           },
           "configurations": {
             "production": {
-              "browserTarget": "angular-overview:build:production"
+              "browserTarget": "furama-angular:build:production"
             }
           }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "angular-overview:build"
+            "browserTarget": "furama-angular:build"
           }
         },
         "test": {
@@ -113,19 +113,19 @@
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
             "protractorConfig": "e2e/protractor.conf.js",
-            "devServerTarget": "angular-overview:serve"
+            "devServerTarget": "furama-angular:serve"
           },
           "configurations": {
             "production": {
-              "devServerTarget": "angular-overview:serve:production"
+              "devServerTarget": "furama-angular:serve:production"
             }
           }
         }
       }
     }
   },
-  "defaultProject": "angular-overview",
+  "defaultProject": "furama-angular",
   "cli": {
-    "analytics": "b3e08fcf-dcfe-47e9-b692-8994e7f4c2be"
+    "analytics": "e91f901e-e032-4ff2-85fa-53f72ca7ed2b"
   }
 }
