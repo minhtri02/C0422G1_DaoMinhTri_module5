@@ -1,0 +1,62 @@
+<section class="get-in-touch">
+  <h1 class="title">Get in touch</h1>
+  <form class="contact-form row" [formGroup]="registerForm" (ngSubmit)="createUse()">
+    <div class="form-field col-lg-6">
+      <input id="name" class="input-text js-input" type="text" formControlName="name">
+      <label for="name">Name</label>
+      <p class="text-danger" *ngIf="registerForm.controls.name.hasError('required') && registerForm.controls.name.touched">không được để trống</p>
+      <p class="text-danger" *ngIf="registerForm.controls.name.hasError('minlength') && registerForm.controls.name.touched">tên không được dưới 4 ký tự</p>
+    </div>
+    <div class="form-field col-lg-6 ">
+      <input id="email" class="input-text js-input" type="email" formControlName="email">
+      <label  for="email">E-mail</label>
+      <p class="text-danger" *ngIf="registerForm.controls.email.hasError('required') && registerForm.controls.email.touched">không được để trống</p>
+      <p class="text-danger" *ngIf="registerForm.controls.email.hasError('pattern') && registerForm.controls.email.touched">E-mail sai định dạng</p>
+
+    </div>
+    <div class="form-field col-lg-6 ">
+      <input id="password" class="input-text js-input" type="text" formControlName="password">
+      <label  for="password">Password</label>
+      <p class="text-danger" *ngIf="registerForm.controls.password.hasError('required') && registerForm.controls.password.touched">không được để trống</p>
+      <p class="text-danger" *ngIf="registerForm.controls.password.hasError('minlength') && registerForm.controls.password.touched">Mật khẩu ít nhất 6 ký tự</p>
+
+    </div>
+    <div class="form-field col-lg-6 ">
+      <input id="confirmPassword" class="input-text js-input" type="text" formControlName="confirmPassword">
+      <label for="confirmPassword">Confirm Password</label>
+      <p class="text-danger" *ngIf="registerForm.hasError('confirmPassword') && registerForm.controls.confirmPassword.touched">Không giống mật khẩu ở trên</p>
+      <p class="text-danger" *ngIf="registerForm.controls.confirmPassword.hasError('required') && registerForm.controls.confirmPassword.touched">không được để trống</p>
+
+    </div>
+    <div class="form-field col-lg-12">
+      <input id="country" class="input-text js-input" type="text" formControlName="country">
+      <label for="country">Country</label>
+      <p class="text-danger" *ngIf="registerForm.controls.country.hasError('required') && registerForm.controls.country.touched">không được để trống</p>
+
+    </div>
+    <div class="form-field col-lg-12">
+      <input id="age" class="input-text js-input" type="text" formControlName="age">
+      <label  for="age">Age</label>
+      <p class="text-danger" *ngIf="registerForm.controls.age.hasError('required') && registerForm.controls.age.touched">không được để trống</p>
+      <p class="text-danger" *ngIf="registerForm.controls.age.hasError('min') && registerForm.controls.age.touched">Tuổi phải >18 và <100</p>
+    </div>
+    <div class="form-field col-lg-12 d-flex">
+      <input id="male" class="input-text js-input" type="radio" name="gender" value="true" formControlName="gender">
+      <label  for="male">Male</label>
+      <input id="female" class="input-text js-input" type="radio" name="gender" value="false" formControlName="gender">
+      <label  for="female">Female</label>
+      <p class="text-danger" *ngIf="registerForm.controls.gender.hasError('required') && registerForm.controls.gender.touched">không được để trống</p>
+
+    </div>
+    <div class="form-field col-lg-12">
+      <input id="phone" class="input-text js-input" type="text" formControlName="phone">
+      <label for="phone">Phone</label>
+      <p class="text-danger" *ngIf="registerForm.controls.phone.hasError('required') && registerForm.controls.phone.touched">không được để trống</p>
+      <p class="text-danger" *ngIf="registerForm.controls.phone.hasError('pattern') && registerForm.controls.phone.touched">số điện thoại sai định dạng</p>
+
+    </div>
+    <div class="form-field col-lg-12">
+      <input class="submit-btn" type="submit" value="Submit">
+    </div>
+  </form>
+</section>
