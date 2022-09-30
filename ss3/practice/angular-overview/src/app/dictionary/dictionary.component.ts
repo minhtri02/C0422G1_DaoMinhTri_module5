@@ -1,0 +1,22 @@
+import { Component, OnInit } from '@angular/core';
+import {Dictionary} from "../../model/dictionary";
+import {DictionaryService} from "../../service/dictionary.service";
+import {FormControl, FormGroup, Validators} from "@angular/forms";
+
+@Component({
+  selector: 'app-dictionary',
+  templateUrl: './dictionary.component.html',
+  styleUrls: ['./dictionary.component.css']
+})
+export class DictionaryComponent implements OnInit {
+
+  dictionaryList:Dictionary[];
+
+  constructor(private dictionaryService: DictionaryService) {
+    this.dictionaryList = this.dictionaryService.findAll();
+  }
+
+  ngOnInit(): void {
+  }
+
+}

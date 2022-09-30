@@ -1,5 +1,5 @@
 import {Component, EventEmitter, Input, OnInit, Output} from '@angular/core';
-import {IFacility} from "../../../model/ifacility";
+import {IFacility} from "../../../model/facility/ifacility";
 
 @Component({
   selector: 'app-delete',

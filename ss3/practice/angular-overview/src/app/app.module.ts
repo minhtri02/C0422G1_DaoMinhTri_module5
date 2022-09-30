@@ -6,7 +6,7 @@ import { AppComponent } from './app.component';
 import { FontSizeEditorComponent } from './font-size-editor/font-size-editor.component';
 import { PetComponent } from './pet/pet.component';
 import {FormsModule, ReactiveFormsModule} from "@angular/forms";
-import { ProductComponent } from './product/product.component';
+import { ProductComponent } from './product/product-list/product.component';
 import { CalculatorComponent } from './calculator/calculator.component';
 import { ColorComponent } from './color/color.component';
 import { ArticleComponent } from './article/article.component';
@@ -20,6 +20,10 @@ import { CountdownTimerComponent } from './countdown-timer/countdown-timer.compo
 import { TodoComponent } from './todo/todo.component';
 import { RegisterComponent } from './register/register.component';
 import { LoginComponentComponent } from './login-component/login-component.component';
+import { DictionaryComponent } from './dictionary/dictionary.component';
+import { DictionaryInfoComponent } from './dictionary-info/dictionary-info.component';
+import { ProductCreateComponent } from './product/product-create/product-create.component';
+import { ProductEditComponent } from './product/product-edit/product-edit.component';
 
 @NgModule({
   declarations: [
@@ -39,7 +43,11 @@ import { LoginComponentComponent } from './login-component/login-component.compo
     CountdownTimerComponent,
     TodoComponent,
     RegisterComponent,
-    LoginComponentComponent
+    LoginComponentComponent,
+    DictionaryComponent,
+    DictionaryInfoComponent,
+    ProductCreateComponent,
+    ProductEditComponent,
   ],
     imports: [
         BrowserModule,

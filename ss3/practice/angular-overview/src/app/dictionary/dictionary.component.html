@@ -1,0 +1,7 @@
+
+<div class="d-flex justify-content-center" *ngFor="let dict of dictionaryList">
+  <div>
+    {{dict.eng}}: {{dict.vie}}
+    <button [routerLink]="['',dict.eng]">detail</button>
+  </div>
+</div>

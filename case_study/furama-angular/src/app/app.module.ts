@@ -10,6 +10,7 @@ import { FacilityListComponent } from './facility/facility-list/facility-list.co
 import { DeleteComponent } from './facility/delete/delete.component';
 import {FormsModule} from "@angular/forms";
 import { FacilityAddComponent } from './facility/facility-add/facility-add.component';
+import { CustomerListComponent } from './customer/customer-list/customer-list.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +20,8 @@ import { FacilityAddComponent } from './facility/facility-add/facility-add.compo
     BodyComponent,
     FacilityListComponent,
     DeleteComponent,
-    FacilityAddComponent
+    FacilityAddComponent,
+    CustomerListComponent
   ],
   imports: [
     BrowserModule,

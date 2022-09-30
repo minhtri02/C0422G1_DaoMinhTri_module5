@@ -1,5 +1,5 @@
 import {Component, EventEmitter, OnInit, Output} from '@angular/core';
-import {IFacility} from "../../../model/ifacility";
+import {IFacility} from "../../../model/facility/ifacility";
 
 @Component({
   selector: 'app-facility-add',
@@ -17,6 +17,6 @@ export class FacilityAddComponent implements OnInit {
   }
 
   addFacility(event:any){
-    
+
   }
 }
