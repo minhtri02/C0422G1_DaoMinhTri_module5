@@ -1,0 +1,74 @@
+{
+  "product": [
+    {
+      "id": 2,
+      "name": "IPhone 11",
+      "price": 1560000,
+      "description": "Like new",
+      "category": {
+        "id": 1,
+        "name": "samsung"
+      }
+    },
+    {
+      "id": 3,
+      "name": "tri",
+      "price": 123123,
+      "description": "dep trai",
+      "category": {
+        "id": 2,
+        "name": "iphone"
+      }
+    },
+    {
+      "id": 4,
+      "name": "nero 7",
+      "price": 55555,
+      "description": "99%",
+      "category": {
+        "id": 3,
+        "name": "oppo"
+      }
+    },
+    {
+      "id": 6,
+      "name": "nero 6",
+      "price": 10000,
+      "description": "99%",
+      "category": {
+        "id": 3,
+        "name": "oppo"
+      }
+    }
+  ],
+  "todo": [
+    {
+      "id": 3,
+      "content": "tri",
+      "complete": "tri"
+    },
+    {
+      "id": 4,
+      "content": "tai",
+      "complete": "tai"
+    }
+  ],
+  "category": [
+    {
+      "id": 1,
+      "name": "samsung"
+    },
+    {
+      "id": 2,
+      "name": "iphone"
+    },
+    {
+      "id": 3,
+      "name": "oppo"
+    },
+    {
+      "id": 4,
+      "name": "vio"
+    }
+  ]
+}

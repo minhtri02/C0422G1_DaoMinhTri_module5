@@ -1,67 +1,42 @@
-import { Injectable } from '@angular/core';
+import {Injectable} from '@angular/core';
 import {Product} from "../model/product";
+import {HttpClient, HttpClientModule} from "@angular/common/http";
+import {Observable} from "rxjs";
+import {Category} from "../model/category";
 
 @Injectable({
   providedIn: 'root'
 })
 export class ProductService {
-  products: Product[] = [{
-    id: 1,
-    name: 'IPhone 12',
-    price: 2400000,
-    description: 'New'
-  }, {
-    id: 2,
-    name: 'IPhone 11',
-    price: 1560000,
-    description: 'Like new'
-  }, {
-    id: 3,
-    name: 'IPhone X',
-    price: 968000,
-    description: '97%'
-  }, {
-    id: 4,
-    name: 'IPhone 8',
-    price: 7540000,
-    description: '98%'
-  }, {
-    id: 5,
-    name: 'IPhone 11 Pro',
-    price: 1895000,
-    description: 'Like new'
-  }];
-  constructor() { }
 
-  getAll() {
-    return this.products;
+  constructor(private http: HttpClient) {
   }
 
-  saveProduct(product) {
-    this.products.push(product);
+  getAllCategory():Observable<Category[]>{
+    return this.http.get<Category[]>("http://localhost:3000/category");
   }
 
-  findById(id:number){
-    for (let i = 0; i <this.products.length; i++) {
-      if (this.products[i].id==id){
-        return this.products[i];
-      }
-    }
+  findByIdCategory(id:number):Observable<Category>{
+    return this.http.get("http://localhost:3000/category/"+id);
   }
 
-  updateById(product:Product){
-    for (let i = 0; i < this.products.length; i++) {
-      if (this.products[i].id==product.id){
-        this.products.splice(i,1,product);
-      }
-    }
+  getAllProduct(): Observable<Product[]> {
+    return this.http.get<Product[]>("http://localhost:3000/product");
   }
 
-  deleteById(id:number){
-    for (let i = 0; i < this.products.length; i++) {
-      if (this.products[i].id==id){
-        this.products.splice(i,1);
-      }
-    }
+  saveProduct(product:Product): Observable<any> {
+    return this.http.post("http://localhost:3000/product", product);
+  }
+
+  findById(id: number):Observable<Product> {
+    return this.http.get<Product>("http://localhost:3000/product/" + id);
+  }
+
+  update(id:number,product: Product):Observable<any>{
+   return this.http.put("http://localhost:3000/product/"+id, product);
+  }
+
+  deleteById(id: number): Observable<Product> {
+    return this.http.delete<Product>("http://localhost:3000/product/" + id);
   }
 }

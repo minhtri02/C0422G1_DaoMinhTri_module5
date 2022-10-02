@@ -1,0 +1,6 @@
+<form [formGroup]="todoEditForm" *ngIf="todoEditForm" (ngSubmit)="submit()">
+  <input type="text" formControlName="id">
+  <input type="text" formControlName="content">
+  <input type="text" formControlName="complete">
+  <button>Edit</button>
+</form>
