@@ -35,11 +35,11 @@ export class ProductCreateComponent implements OnInit {
     const product = this.productForm.value;
     this.productService.findByIdCategory(this.productForm.value.category).subscribe(n => {
       product.category = n;
-      console.log(product)
+      console.log(product);
     }, e => {
     }, () =>  {
-      this.productService.saveProduct(product).subscribe()
+      this.productService.saveProduct(product).subscribe();
       this.router.navigateByUrl("/product/list");
-    })
+    });
   }
 }

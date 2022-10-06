@@ -1,0 +1,116 @@
+<div>
+  <nav class="row mt-4">
+    <nav class="col-lg-2"></nav>
+    <nav class="col-lg-8 d-flex justify-content-center">
+      <form [formGroup]="customerForm" (ngSubmit)="submit()" class="justify-content-center d-flex" method="post"
+            style="border: 1px solid #A9A9A9; border-radius: 20px; width: 100%">
+        <fieldset>
+          <legend>Add Customer</legend>
+          <table style="width: 100%" class="table">
+
+            <tr>
+              <th scope="col">
+                <label>Chọn loại khách</label>
+              </th>
+              <th scope="col">
+                <select  class="table-row" formControlName="customerType">
+                  <option *ngFor="let type of customerTypes" [ngValue]="type" selected>{{type.name}}</option>
+                </select>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">
+                <label>Tên khách hàng</label>
+              </th>
+              <th scope="col">
+                <input type="text" formControlName="name">
+              </th>
+              <div class="text-danger" *ngIf="!nameCustomer.valid && (nameCustomer.dirty || nameCustomer.touched)">
+                <div [hidden]="!nameCustomer.errors.required">Name Customer is required !!!</div>
+                <div [hidden]="!nameCustomer.errors.pattern"> Invalid Customer Name !!!</div>
+              </div>
+            </tr>
+            <tr>
+              <th scope="col">
+                <label>Ngày sinh</label>
+              </th>
+              <th scope="col">
+                <input type="date" formControlName="dateOfBirth">
+              </th>
+              <div class="mb-3 text-danger" *ngIf="customerForm.controls.dateOfBirth.touched && customerForm.controls.dateOfBirth.hasError('required')">
+                Date Of Birth is required !!!
+              </div>
+            </tr>
+            <tr>
+              <th scope="col">
+                <label>Giới tính(0 or 1)</label>
+              </th>
+              <th scope="col">
+                <select formControlName="gender">
+                  <option ngValue="true" selected>Nam</option>
+                  <option ngValue="false">Nữ</option>
+                </select>
+              </th>
+            </tr>
+            <tr>
+              <th scope="col">
+                <label>Số CMND(9 number)</label>
+              </th>
+              <th scope="col">
+                <input type="text" formControlName="idCard">
+              </th>
+              <div class="text-danger" *ngIf="!idCard.valid && (idCard.dirty || idCard.touched)">
+                <div [hidden]="!idCard.errors.required">Name Customer is required !!!</div>
+                <div [hidden]="!idCard.errors.minlength">  ID Card min 9 !!!</div>
+                <div [hidden]="!idCard.errors.maxlength">   ID Card  max 12 !!!</div>
+              </div>
+            </tr>
+            <div>
+
+            </div>
+            <tr>
+              <th scope="col">
+                <label>Số điện thoại</label>
+              </th>
+              <th scope="col">
+                <input type="text"formControlName="phoneNumber">
+              </th>
+              <div class="text-danger" *ngIf="!phone.valid && (phone.dirty || phone.touched)">
+                <div [hidden]="!phone.errors.required">Phone Number is required !!!</div>
+                <div [hidden]="!phone.errors.pattern"> Invalid Phone Number !!!</div>
+              </div>
+            </tr>
+            <tr>
+              <th scope="col">
+                <label>Email</label>
+              </th>
+              <th scope="col">
+                <input type="text" formControlName="email">
+              </th>
+              <div class="text-danger" *ngIf="!email.valid && (email.dirty || email.touched)">
+                <div [hidden]="!email.errors.required">Email is required !!!</div>
+                <div [hidden]="!email.errors.email"> Invalid Email !!!</div>
+              </div>
+            </tr>
+            <tr>
+              <th scope="col">
+                <label>Địa chỉ</label>
+              </th>
+              <th scope="col">
+                <input type="text" formControlName="address">
+              </th>
+              <div class="mb-3 text-danger" *ngIf="customerForm.controls.address.touched && customerForm.controls.address.hasError('required')">
+                Address is required !!!
+              </div>
+            </tr>
+            <tr>
+              <th></th>
+              <th><input class="btn btn-primary text-dark" type="submit" value="SAVE"></th>
+            </tr>
+          </table>
+        </fieldset>
+      </form>
+    </nav>
+    <nav class="col-lg-2"></nav>
+  </nav>
+</div>

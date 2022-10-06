@@ -1,0 +1,120 @@
+<div class="row">
+  <h1 class="text-center">Chỉnh sửa thông tin xe khách có số xe {{benxe.bienSoXe}}</h1>
+
+  <div class="col-lg-2">
+    <button class="btn-success" type="button" style="width: 100px">Thêm mới</button>
+  </div>
+  <div class="col-lg-8 d-flex justify-content-center">
+    <form method="post" [formGroup]="benxeForm">
+      <fieldset>
+        <table>
+          <tr>
+            <th>
+              <label>Biển số xe</label>
+            </th>
+            <input type="text" readonly formControlName="bienSoXe" class="form-control">
+          </tr>
+          <tr>
+            <th>
+              <label>Loại xe(*)</label>
+            </th>
+            <td>
+              <input type="text" formControlName="loaiXe">
+              <p class="text-danger" *ngIf="benxeForm.controls.loaiXe.hasError('required')">Không được để trống</p>
+            </td>
+          </tr>
+          <tr>
+            <th>
+              <label>Tên nhà xe(*)</label>
+            </th>
+            <td>
+              <input type="text" formControlName="tenNhaXe">
+              <p class="text-danger" *ngIf="benxeForm.controls.tenNhaXe.hasError('required')">Không được để trống</p>
+
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label>Điểm đi(*)</label>
+            </th>
+            <td>
+              <div>
+              <select formGroupName="diemDi" class="form-control">
+                <option *ngFor="let diemdi of diemDis" [ngValue]="diemdi.id" formControlName="id" >{{diemdi.name}}</option>
+              </select>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label>Điểm đến(*)</label>
+            </th>
+            <td>
+              <div>
+              <select formGroupName="diemDen" class="form-control">
+                <option *ngFor="let diemden of diemDens" [ngValue]="diemden" formControlName="id">{{diemden.name}}</option>
+              </select>
+              </div>
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label>Số điện thoại(*)</label>
+            </th>
+            <td>
+              <input type="text" formControlName="sdt">
+              <p class="text-danger" *ngIf="benxeForm.controls.sdt.hasError('required')">Không được để trống</p>
+              <p class="text-danger" *ngIf="benxeForm.controls.sdt.hasError('pattern')">Số đt phải bắt đầu bằng 090/093/097 và có 10 chữ số</p>
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label>Email(*)</label>
+            </th>
+            <td>
+              <input type="text" formControlName="email">
+              <p class="text-danger" *ngIf="benxeForm.controls.email.hasError('required')">Không được để trống</p>
+
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label>Giờ đi(*)</label>
+            </th>
+            <td>
+              <input type="time" formControlName="gioDi">
+              <p class="text-danger" *ngIf="benxeForm.controls.gioDi.hasError('required')">Không được để trống</p>
+
+            </td>
+          </tr>
+
+          <tr>
+            <th>
+              <label>Giờ đến(*)</label>
+            </th>
+            <td>
+              <input type="time" formControlName="gioDen">
+              <p class="text-danger" *ngIf="benxeForm.controls.gioDen.hasError('required')">Không được để trống</p>
+
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <button class="btn btn-info" [routerLink]="['']">Quay về</button>
+            </td>
+            <td>
+              <button type="button" class="btn btn-primary" (click)="editBenxe()">Sửa</button>
+            </td>
+          </tr>
+        </table>
+      </fieldset>
+    </form>
+  </div>
+  <div class="col-lg-2"></div>
+</div>

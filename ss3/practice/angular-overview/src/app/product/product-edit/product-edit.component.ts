@@ -41,7 +41,7 @@ export class ProductEditComponent implements OnInit {
     });
     productService.getAllCategory().subscribe(n => {
       this.categories = n;
-    })
+    });
   }
 
   ngOnInit(): void {
@@ -51,11 +51,11 @@ export class ProductEditComponent implements OnInit {
     const product = this.productForm.value;
     this.productService.findByIdCategory(this.productForm.value.category).subscribe(n => {
       product.category = n;
-      console.log(product)
+      console.log(product);
     }, e => {
     }, () =>  {
       this.productService.update(product.id,product).subscribe();
       this.router.navigateByUrl("/product/list");
-    })
+    });
   }
 }

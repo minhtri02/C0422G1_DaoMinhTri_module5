@@ -8,8 +8,6 @@ import {IFacility} from "../../../model/facility/ifacility";
 })
 export class FacilityAddComponent implements OnInit {
 
-  @Output() itemAddFacility = new EventEmitter();
-
   facility:IFacility = {};
   constructor() { }
 

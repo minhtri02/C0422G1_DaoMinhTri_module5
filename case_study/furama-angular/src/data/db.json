@@ -1,0 +1,74 @@
+{
+  "customer": [
+    {
+      "id": 2,
+      "name": "tai",
+      "dateOfBirth": "1-3-1998",
+      "gender": true,
+      "idCard": "123451234",
+      "phoneNumber": "090523423",
+      "email": "taichodien@gmail.com",
+      "address": "da nang",
+      "customerType": {
+        "id": 1,
+        "name": "gold"
+      }
+    },
+    {
+      "id": 3,
+      "name": "son",
+      "dateOfBirth": "5-3-1998",
+      "gender": true,
+      "idCard": "67834123",
+      "phoneNumber": "090588237",
+      "email": "sonchodien@gmail.com",
+      "address": "da nang",
+      "customerType": {
+        "id": 1,
+        "name": "gold"
+      }
+    },
+    {
+      "id": 4,
+      "name": "thanh",
+      "dateOfBirth": "4-1-1998",
+      "gender": true,
+      "idCard": "56121234",
+      "phoneNumber": "090534521",
+      "email": "thanhchodien@gmail.com",
+      "address": "da nang",
+      "customerType": {
+        "id": 1,
+        "name": "gold"
+      }
+    },
+    {
+      "id": 8,
+      "name": "nghingu",
+      "dateOfBirth": "2022-10-05",
+      "gender": true,
+      "idCard": "1234124",
+      "phoneNumber": "123124",
+      "email": "3124123",
+      "address": "123123",
+      "customerType": {
+        "id": 3,
+        "name": "platium"
+      }
+    }
+  ],
+  "customerType": [
+    {
+      "id": 1,
+      "name": "gold"
+    },
+    {
+      "id": 2,
+      "name": "silver"
+    },
+    {
+      "id": 3,
+      "name": "platium"
+    }
+  ]
+}

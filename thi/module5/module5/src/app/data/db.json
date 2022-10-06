@@ -1,0 +1,84 @@
+{
+  "benxe": [
+    {
+      "id": 1,
+      "bienSoXe": "1231",
+      "loaiXe": "giường nằm",
+      "tenNhaXe": "Mai Linh 2",
+      "diemdi": {
+        "id": 1,
+        "name": "Quãng trị"
+      },
+      "diemden": {
+        "id": 5,
+        "name": "Thanh Hoá"
+      },
+      "sdt": "0905626655",
+      "email": "mailinh@gmail.com",
+      "gioDi": "13:20",
+      "gioDen": "15:00"
+    },
+    {
+      "id": 2,
+      "bienSoXe": "1222",
+      "loaiXe": "giường nằm",
+      "tenNhaXe": "Phương Trang",
+      "diemdi": {
+        "id": 1,
+        "name": "Quãng trị"
+      },
+      "diemden": {
+        "id": 4,
+        "name": "Hà Nội"
+      },
+      "sdt": "0905626655",
+      "email": "mailinh@gmail.com",
+      "gioDi": "13:20",
+      "gioDen": "15:00"
+    }
+  ],
+  "diemden": [
+    {
+      "id": 1,
+      "name": "Quãng trị"
+    },
+    {
+      "id": 2,
+      "name": "Quãng bình"
+    },
+    {
+      "id": 3,
+      "name": "Huế"
+    },
+    {
+      "id": 4,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 5,
+      "name": "Thanh Hoá"
+    }
+  ],
+  "diemdi": [
+    {
+      "id": 1,
+      "name": "Quãng trị"
+    },
+    {
+      "id": 2,
+      "name": "Quãng bình"
+    },
+    {
+      "id": 3,
+      "name": "Huế"
+    },
+    {
+      "id": 4,
+      "name": "Hà Nội"
+    },
+    {
+      "id": 5,
+      "name": "Thanh Hoá"
+    }
+  ]
+}
